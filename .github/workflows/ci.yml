@@ -2,7 +2,7 @@ name: ci
 
 on:
   push:
-    branches: [master]
+    branches: [master, clara/exif-tests]
   pull_request:
   workflow_dispatch:
   # Keeps the vcpkg cache entry alive (GitHub evicts caches untouched for 7 days)
